@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "2",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "3",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "4",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "5",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "6",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "7",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "8",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "9",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  },
+  {
+    "id": "10",
+    "name": "Xiaomi Mi 10",
+    "description": "description here",
+    "price": "$100.000 ARS",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+  }
+]
