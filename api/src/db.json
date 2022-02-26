@@ -1,72 +1,65 @@
 [
   {
     "id": "1",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
+    "brand": "Xiaomi",
+    "name": "Xiaomi Mi 10 128gb 8gb Ram",
+    "price": "$170.000",
     "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
   },
   {
     "id": "2",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip3 128gb 8gb Ram",
+    "price": "$130.000",
+    "image": "https://http2.mlstatic.com/D_687629-MLA48870417637_012022-O.jpg"
   },
   {
     "id": "3",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "Apple",
+    "name": "iPhone 13 Pro Max 256gb 6gb Ram",
+    "price": "$420.000",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_619217-MLA47776936253_102021-O.webp"
   },
   {
     "id": "4",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "Motorola",
+    "name": "Edge 20 Pro 256gb 12gb Ram",
+    "price": "$110.000",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_738719-MLA47585567035_092021-F.webp"
   },
   {
     "id": "5",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "Huawei",
+    "name": "Mate 30 Pro 512gb 8gb Ram",
+    "price": "$300.000",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_611173-MLA42072676350_062020-O.webp"
   },
   {
     "id": "6",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "Sony",
+    "name": "Xperia 1 Iii 256gb 12gb Ram",
+    "price": "$250.000",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_865011-MLA47963914008_102021-O.webp"
   },
   {
     "id": "7",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "Asus",
+    "name": "Rogphone 3 Gaming 512gb 12gb Ram",
+    "price": "$240.000",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_740015-MLA43168765514_082020-O.webp"
   },
   {
     "id": "8",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "LG",
+    "name": "Velvet 128gb 6gb Ram",
+    "price": "$100.000",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_655003-MLA44170061074_112020-O.webp"
   },
   {
     "id": "9",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
-  },
-  {
-    "id": "10",
-    "name": "Xiaomi Mi 10",
-    "description": "description here",
-    "price": "$100.000 ARS",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_955559-MLA42952313674_072020-O.webp"
+    "brand": "Alcatel",
+    "name": "5H 128gb 4gb RAM",
+    "price": "$90.000",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_627070-MLA47544226235_092021-O.webp"
   }
 ]
