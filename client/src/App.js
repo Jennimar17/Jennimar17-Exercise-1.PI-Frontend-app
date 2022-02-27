@@ -1,15 +1,21 @@
-import Home from "./components/Home/Home"
-import Phones from "./components/Phones/Phones";
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./components/Home/Home";
+import PhoneListing from "./components/Phones/PhoneListing.jsx";
+import PhoneDetails from "./components/PhoneDetails.jsx/PhoneDetails.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
-        <Route path="/" element = {<Home/>} />
-        <Route path="/phones" element= {<Phones/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/phones" element={<PhoneListing />} />
+        <Route
+          path="/phone-detail/:productId"
+          exact
+          component={<PhoneDetails />}
+        />
       </Routes>
-    </BrowserRouter>
-  )
+    </Router>
+  );
 }
 
 export default App;

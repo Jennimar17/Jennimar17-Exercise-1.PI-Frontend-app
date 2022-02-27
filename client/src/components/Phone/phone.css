@@ -10,9 +10,9 @@
   align-items: center;
   background: rgb(255, 255, 255);
   border-radius: 16px;
-  box-shadow: 8px 14px 17px -5px rgba(0,0,0,0.53);
--webkit-box-shadow: 8px 14px 17px -5px rgba(0,0,0,0.53);
--moz-box-shadow: 8px 14px 17px -5px rgba(0,0,0,0.53);
+  box-shadow: 8px 14px 17px -5px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 8px 14px 17px -5px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 8px 14px 17px -5px rgba(0, 0, 0, 0.53);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   padding: 5px;
@@ -50,6 +50,11 @@ p {
   font-weight: 500;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   font-family: inter, Sans-serif;
   font-size: 18px;
@@ -74,10 +79,10 @@ p {
 
 .phone-review {
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
-  color:rgba(255, 208, 1, 0.993)
+  color: rgba(255, 208, 1, 0.993);
 }
 
 .phone-review--text {
@@ -89,14 +94,16 @@ p {
 .phone-header {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 10px;
+  align-items: center;  
+  margin: 10px;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .phone-like {
   color: rgb(255, 68, 68);
-  margin-left: 300px;
   position: absolute;
+  right: 0;
 }
 @media only screen and (max-width: 500px) {
   .phone-card {
