@@ -1,28 +1,35 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Phone from "../Phone/Phone.jsx";
+import Spinner from "../Spinner/Spinner.jsx";
+export default function Phones() {
+  const [phones, setPhones] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const URL_API = "http://localhost:4000/api/phones";
 
-export default class Phones extends Component {
-  state = {
-    phones: [],
-  };
-  async componentDidMount() {
-    const res = await axios.get("http://localhost:4000/api/phones");
-    this.setState({ phones: res.data });
-    console.log(this.state.phones);
-  }
+  useEffect(() => {
+    axios
+      .get(`${URL_API}`)
+      .then((res) => {
+        setPhones(res.data);
+        setLoading(false);
+      })
+      .catch(console.log);
+  }, []);
 
-  render() {
-    return (
-      <>
-        {this.state.phones.map((phone) => (
-          <>
-            <img src={phone.image} />
-            <p>{phone.brand}</p>
-            <p>{phone.name}</p>
-            <p>{phone.price}</p>
-          </>
-        ))}
-      </>
-    );
-  }
+  return (
+    <>
+      {loading && <Spinner />}
+      {phones.map((phone) => {
+        return (
+          <Phone
+            props={phone}
+            key={phone.id}
+            className="card__phone-container"
+          />
+        );
+      })}
+      {phones.length === 0 && <p>cargando</p>}
+    </>
+  );
 }

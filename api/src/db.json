@@ -11,55 +11,55 @@
     "brand": "Samsung",
     "name": "Galaxy Z Flip3 128gb 8gb Ram",
     "price": "$130.000",
-    "image": "https://http2.mlstatic.com/D_687629-MLA48870417637_012022-O.jpg"
+    "image": "https://i.ibb.co/VJbc8cR/2.png"
   },
   {
     "id": "3",
     "brand": "Apple",
     "name": "iPhone 13 Pro Max 256gb 6gb Ram",
     "price": "$420.000",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_619217-MLA47776936253_102021-O.webp"
+    "image": "https://i.ibb.co/f42HXps/Sin-t-tulo-425-500-px.png"
   },
   {
     "id": "4",
     "brand": "Motorola",
     "name": "Edge 20 Pro 256gb 12gb Ram",
     "price": "$110.000",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_738719-MLA47585567035_092021-F.webp"
+    "image": "https://i.ibb.co/J2C6LCJ/Sin-t-tulo-425-500-px-1.png"
   },
   {
     "id": "5",
     "brand": "Huawei",
     "name": "Mate 30 Pro 512gb 8gb Ram",
     "price": "$300.000",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_611173-MLA42072676350_062020-O.webp"
+    "image": "https://i.ibb.co/RpCsjjP/Sin-t-tulo-425-500-px-2.png"
   },
   {
     "id": "6",
     "brand": "Sony",
     "name": "Xperia 1 Iii 256gb 12gb Ram",
     "price": "$250.000",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_865011-MLA47963914008_102021-O.webp"
+    "image": "https://i.ibb.co/YtPQZHC/Sin-t-tulo-425-500-px-8.png"
   },
   {
     "id": "7",
     "brand": "Asus",
     "name": "Rogphone 3 Gaming 512gb 12gb Ram",
     "price": "$240.000",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_740015-MLA43168765514_082020-O.webp"
+    "image": "https://i.ibb.co/rsMMK0p/Sin-t-tulo-425-500-px-4.png"
   },
   {
     "id": "8",
     "brand": "LG",
     "name": "Velvet 128gb 6gb Ram",
     "price": "$100.000",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_655003-MLA44170061074_112020-O.webp"
+    "image": "https://i.ibb.co/p2Kz79v/Sin-t-tulo-425-500-px-5.png"
   },
   {
     "id": "9",
     "brand": "Alcatel",
     "name": "5H 128gb 4gb RAM",
     "price": "$90.000",
-    "image": "https://http2.mlstatic.com/D_NQ_NP_627070-MLA47544226235_092021-O.webp"
+    "image": "https://i.ibb.co/nMpSbrq/Sin-t-tulo-425-500-px-6.png"
   }
 ]

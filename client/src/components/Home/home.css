@@ -1,5 +1,9 @@
 body {
   margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +24,7 @@ body {
   width: 500px;
   height: 350px;
   position: relative;
-  top: 150px;
+  top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
