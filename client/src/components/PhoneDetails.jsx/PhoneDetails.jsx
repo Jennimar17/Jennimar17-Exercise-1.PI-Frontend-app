@@ -3,6 +3,8 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setPhones } from "../../redux/actions/phoneActions.js";
+import { BsStarFill, BsStarHalf, BsStar, BsHeartFill } from "react-icons/bs";
+import "../Phone/phone.css";
 
 const PhoneDetails = () => {
   const { id } = useParams();
@@ -30,8 +32,31 @@ const PhoneDetails = () => {
       {phones.map.length === 0 ? (
         <div>...Loading</div>
       ) : (
-        <div>{phone.name}
-        <img src={phone.image}/></div>
+        <div className="container">
+        <div className="phone-card">
+          <div className="phone-header">
+            <p className="phone-brand">{phone.brand}</p>
+            <BsHeartFill className="phone-like" />
+          </div>
+          <div className="phone-card__img">
+            <img src={phone.image} alt={phone.name} />
+          </div>
+          <p className="phone-name">{phone.name}</p>
+          <p className="phone-price">{phone.price}</p>
+          <div className="button-container">
+            <button className="button">Comprar</button>
+          </div>
+
+          <div className="phone-review">
+            <BsStarFill />
+            <BsStarFill />
+            <BsStarFill />
+            <BsStarHalf />
+            <BsStar />
+            <p className="phone-review--text">(4.5)</p>
+          </div>
+        </div>
+        </div>
       )}
     </div>
   );

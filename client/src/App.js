@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/phones" element={<PhoneListing />} />
         <Route path="/phones/:id" element={<PhoneDetails />} /> />
       </Routes>

@@ -3,8 +3,8 @@
 .phone-card {
   display: flex;
   flex-direction: column;
-  width: 350px;
-  margin: 10px;
+  width: 250px;
+  margin: 45px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -20,20 +20,34 @@
   margin-bottom: 10px;
 }
 
+img:hover, img:focus, img:active{
+  transform: scale(1.1);
+
+}
+
 .phone-card__img {
   width: 90%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 .phone-card__img img {
   width: 100%;
   height: auto;
   display: block;
+  z-index: 1;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #494f86;
+}
+
+a:link {
+  text-decoration: none;
 }
 .phone-brand {
   margin: 5px;
@@ -94,7 +108,7 @@ p {
 .phone-header {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   margin: 10px;
   box-sizing: border-box;
   position: relative;
