@@ -7,9 +7,3 @@ export const setPhones = (phones) => {
   };
 };
 
-export const selectedPhones = (phones) => {
-  return {
-    type: ActionTypes.SELECTED_PHONE,
-    payload: phones,
-  };
-};

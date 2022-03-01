@@ -1,7 +1,6 @@
 import { combineReducers } from "redux";
-import { phoneReducer, selectedPhoneReducer } from "./phoneReducer.js";
+import { phoneReducer } from "./phoneReducer.js";
 const reducers = combineReducers({
-  allPhones: phoneReducer,
-  phones: selectedPhoneReducer,
+  allPhones: phoneReducer
 });
 export default reducers;

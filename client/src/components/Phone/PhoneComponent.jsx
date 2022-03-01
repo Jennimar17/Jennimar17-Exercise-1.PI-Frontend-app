@@ -12,7 +12,7 @@ const PhoneComponent = () => {
     /*     debugger */
     return (
       <div className="phone-card" key={id}>
-        <Link to={`/phone/${id}`}>
+        <Link to={`/phones/${id}`}>
           <div className="phone-header">
             <p className="phone-brand">{brand}</p>
             <BsHeartFill className="phone-like" />

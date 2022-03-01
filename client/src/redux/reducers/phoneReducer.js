@@ -16,7 +16,7 @@ export const selectedPhoneReducer = (state = {}, { type, payload }) => {
   console.log(type);
   switch (type) {
     case ActionTypes.SELECTED_PHONE:
-      return { ...state, ...payload };
+      return { ...state, ...payload  };
     default:
       return state;
   }

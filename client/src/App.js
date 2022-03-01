@@ -8,11 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/phones" element={<PhoneListing />} />
-        <Route
-          path="/phone-detail/:productId"
-          exact
-          component={<PhoneDetails />}
-        />
+        <Route path="/phones/:id" element={<PhoneDetails />} /> />
       </Routes>
     </Router>
   );
